@@ -21,8 +21,8 @@ Then add **hubot-chuck-norris-icndb** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot ckuck joke
+hubot>> Chuck Norris once rode a nine foot grizzly bear through an automatic car wash, instead of taking a shower.
 ```
 
 ## NPM Module
