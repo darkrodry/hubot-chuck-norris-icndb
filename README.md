@@ -1,4 +1,4 @@
-# hubot-chuck-norris-icndb
+# hubot-chuck-norris-icndb [![Build Status](https://travis-ci.org/darkrodry/hubot-chuck-norris-icndb.svg?branch=master)](https://travis-ci.org/darkrodry/hubot-chuck-norris-icndb)
 
 Response with a joke from ICNDb
 
