@@ -10,12 +10,13 @@ notifications:
   email: false
   webhooks:
     urls:
-      - https://whispering-sands-84094.herokuapp.com/telegram-bot/travisci/37798333
+    - https://whispering-sands-84094.herokuapp.com/telegram-bot/travisci/37798333
     on_start: always
 deploy:
   provider: npm
-  email: "darkrodry@gmail.com"
+  email: darkrodry@gmail.com
   api_key:
-    secure: H6nViLUg50f5JQWHrSb6Bsp0bxWu3PnxbdtQJHWmSYcEMR62LLBhw43i6SCh29t0GzamuwJa5FLRfIjZlvljES9nLk3aLdRPAaXGh4Z37DkJGYquQ10Hl+JTzst/fV3yY73sao4jWW4kPHkK4IQtIeWTbJFShQco/5r4FmNHEFM0smJEnQ1Eh2y2GeGbaIN6v91nSoq94z9/TWxTQ4xsWB5PKrx1/0ah0XSYunU0rzRukOTnxVwrtl6uSoPT5eE8ImxIle2T6stmILaHL3RctRVlooekIbPLK3sxp7v2u3QxwEp+MPjougn4lENcc0IiQAcXbxBsWQwTjZy3t45nwQlXNgYqVeZjOUH4UQAuYtE53NpYsNjQC9Fa9ntVyfnmaxzp1nJJcMh6oeQpLVgrIeHd4CZ611TYP/CnpR6YrUfgd1KQit7jqPvllXhgu3I9AkoeCvhR30sVCeXiJScJ2rFER1+hegUAq4WO5QoD2iu+UvtbWUTHUyM7sm8xEnFvFHqrCFkgZt8lf8J8fdj+dJC05kQ+S/V1464UaVgD6lVnnGKEvsTX1G5DaSJD9Yy6RW1MTjbH7Ybm+tmQvAZ/JoIMiI5jagopD/nec4tzNjH38uNXngvr+0zE1LF4gZfRXido5gy2y1uF/BXGeuqKxOEWr6/AnwhoEhN/IiXskBM=
+    secure: YyPORKEWpSlHg0R9UONEhGy+oczKZqROmHZaH7ZkuJeq9TgO1vzQduqPbnZEQNt4Gz+erc87eoiAKHsgoAzmSN/l7qnx8KCEATPkY5lHRIceem1uSBxSYo8gz5wN1lMu4A1ePEu4iDzH1Kvx7kN7AHXaUG3M0wbU89XQZ/DyOTL4/ONe0cRQyUJJ/Wfz0nL6Si6qlVSrqqAUJMrhwlE45lQLLkyG8M5Z2rr6MbnqmQr8rbVmxhaRDHpJt3awN7pnprYZX2PebfD9THUFlzPkrb/cs+d6o8RXw3qBBrlpF0/o9pW177NPc5OGDnSMTD58doIynSH7DtvjQp/pUPRFWKE2MTtknqD9y5d0jj98lX6kqVYJWk6jsAllkX3Nw/YalTEVdnu8k1KQRwif77d0urY5tU9NjUczKmsalC8xwBXA/0Y2K0YVvAAG+wNitVHnWWMzTsxewtrIeccRAu94l9iAIcNo9CwSOgvs6tKbFXrt9zK6z0b/IzNyzi+LJoWOAatPHAC4Dr4tHH76MkP7/edgCBAQskZVJQyBZd2oVAY7FekBTwjROsqJH6V6D2zcJ9E4QpGEylzeoX7E8UBNSBkrzis9qnaN+A5FgQIFOOUrQLsAufi382wNHmSbULcJRK15K1/wVOIGerEflj13z7JwhKVIW7BaDY4Wg6kCdfk=
   on:
     tags: true
+    repo: darkrodry/hubot-chuck-norris-icndb
